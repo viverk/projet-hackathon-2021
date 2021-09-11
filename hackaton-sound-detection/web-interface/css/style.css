@@ -1,0 +1,35 @@
+header, form{
+    max-width: 100% ;
+    text-align: center;
+}
+header{
+    margin-top: 50%;
+}
+input{
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+h1{
+    color: black;
+    font-size: 28px;
+}
+#immatriculation{
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+}
+#submit{
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    background-color:rgb(5, 242, 190);
+    box-shadow: 1px 0px 1px;
+}
+#submit:hover{
+    cursor:pointer;
+    box-shadow: 1px 1px 1px;
+}
+/*Le fond d'écran*/
+html{
+    background: url("../img/background2.jpg") no-repeat fixed center center/cover;
+}

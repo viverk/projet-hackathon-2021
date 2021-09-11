@@ -1,0 +1,236 @@
+header{
+    max-width: 100%;
+}
+#déco{
+    float:right;
+}
+#logo, #déco{
+    margin-top: 30px;
+}
+#logo{
+    margin-left: 30px;
+}
+#déco{
+    margin-right: 30px;
+}
+h1,p{
+    text-align: center;
+    max-width: 100%;
+    padding: 0;
+}
+h1{
+    text-decoration: none;
+    font-size: 20px;
+}
+p{
+    font-size: 30px;
+}
+/*Créer le cercle*/
+.cercle-main {
+    margin-top: 50px;
+    max-width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    background: rgba(2, 102, 2, 0.59);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 2px rgb(1, 48, 1);
+}
+/*Créer le cercle de danger avec l'animation*/
+.cercle-renfort {
+    margin-top: 50px;
+    max-width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    background: rgba(255, 5, 5, 0.474);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 2px rgb(121, 4, 4);
+    animation-duration: .4s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+/*
+    Créer et bien positionner l'image sur l'écran
+*/
+.micro-inactif{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Créer le micro quand il est actif avec l'animation de clignotement*/
+.micro-actif{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    animation-duration: .7s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+/*Le shéma de ce que fait l'animation (les % représentant à quel moment vous vous trouver dans l'animation)*/
+@keyframes clignoter {
+    0%   { opacity:1; }
+    40%   {opacity:0; }
+    100% { opacity:1; }
+  }
+#text{
+    font-size: 18px;
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+/*créer les 3 petits points clignotants*/
+.point{
+    text-align: center;
+}
+.point>p{
+    display: inline-block;
+    margin: auto;
+    margin-left: auto;
+}
+/*l'animation de clignotement du point 1*/
+#p1{
+    animation-duration: .7s;
+    animation-name: point;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+/*l'animation de clignotement du point 2*/
+#p2{
+    animation-duration: .7s;
+    animation-name: point2;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+/*l'animation de clignotement du point 3*/
+#p3{
+    animation-duration: .7s;
+    animation-name: point3;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+/*le shéma de l'animation du point 1*/
+
+@keyframes point{
+    0%   { opacity:1; }
+    40%   {opacity:0; }
+    100% { opacity:1; }
+}
+/*le shéma de l'animation du point 1*/
+
+@keyframes point2{
+    0%   { opacity:1; }
+    60%   {opacity:0; }
+    100% { opacity:1; }
+}
+/*le shéma de l'animation du point 1*/
+
+@keyframes point3{
+    0%   { opacity:1; }
+    80%   {opacity:0; }
+    100% { opacity:1; }
+}
+/*bouton pour prévenir les renforts*/
+#submit{
+    display: none;
+    margin: auto;
+    border: none;
+    margin-top: 50px;
+    border-radius: 3px;
+    padding: 10px;
+    background-color:rgb(56, 155, 36);
+    box-shadow: 1px 0px 1px;
+    text-decoration: none;
+    max-width: 40%;
+    text-align: center;
+    color: white;
+}
+
+#enregistrer{
+    display: block;
+    margin: auto;
+    border: none;
+    margin-top: 50px;
+    border-radius: 3px;
+    padding: 10px;
+    background-color:rgb(56, 155, 36);
+    box-shadow: 1px 0px 1px;
+    text-decoration: none;
+    max-width: 40%;
+    text-align: center;
+    color: white;
+}
+#submit-fa{
+    max-width: 40%;
+    display: none;
+    margin: auto;
+    border: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 10px;
+    background-color:rgb(121, 4, 4);
+    box-shadow: 1px 0px 1px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+#submit:hover{
+    cursor:pointer;
+    box-shadow: 1px 1px 1px;
+}
+
+#stop {
+    display: block;
+    margin: auto;
+    border: none;
+    margin-top: 50px;
+    border-radius: 3px;
+    padding: 10px;
+    background-color:rgb(121, 4, 4);
+    box-shadow: 1px 0px 1px;
+    text-decoration: none;
+    max-width: 40%;
+    text-align: center;
+    color: white; 
+}
+
+button:hover{
+    cursor: pointer;
+}
+#signalement{
+    font-size: 20px;
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+#txt{
+    font-size: 15px;
+    font-weight: bold;
+}
+#valide{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.txt{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#record-progress {
+    display: none;
+}
