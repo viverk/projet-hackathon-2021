@@ -1,7 +1,10 @@
 # Hackathon Février 2021 
 
 ## Thème
-Conception d'un prototype de reconnaissance et traitement de signal audio à connecter sur un Wello (vélo-cargo électrique à énergie solaire) à destination de la délégation ministérielle pour l'intelligence artificielle. https://www.linkedin.com/posts/lycee-le-rebours_4e-%C3%A9dition-du-hackathon-le-rebours-avec-la-activity-6764580856175575040-LWbI
+Conception d'un prototype de reconnaissance et traitement de signal audio à connecter sur un Wello (vélo-cargo électrique à énergie solaire) à destination de la délégation ministérielle pour l'intelligence artificielle. 
+
+Context:  https://www.linkedin.com/posts/lycee-le-rebours_4e-%C3%A9dition-du-hackathon-le-rebours-avec-la-activity-6764580856175575040-LWbI
+
 ![image](https://user-images.githubusercontent.com/74957427/132962349-9af2f502-6f52-4099-a9af-210350a444ee.png)
 ![image](https://user-images.githubusercontent.com/74957427/132962351-73828afc-5868-48f3-bc48-2a8484d0532d.png)
 
