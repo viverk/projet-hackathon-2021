@@ -2,7 +2,7 @@
 # (README EN COURS DE REDACTION)
 
 ## Thème
-Conception d'un prototype de reconnaissance et traitement de signal audio à connecter sur un Wello (vélo-cargo électrique à énergie solaire) à destination de la délégation ministérielle pour l'intelligence artificielle.
+Conception d'un prototype de reconnaissance et traitement de signal audio à connecter sur un Wello (vélo-cargo électrique à énergie solaire) à destination de la délégation ministérielle pour l'intelligence artificielle. https://www.linkedin.com/posts/lycee-le-rebours_4e-%C3%A9dition-du-hackathon-le-rebours-avec-la-activity-6764580856175575040-LWbI
 
 ## Installation 
 
